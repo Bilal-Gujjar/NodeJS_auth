@@ -1,6 +1,7 @@
 const fs = require("fs");
 const db = require("./db");
 const Data = require("./data.json")
+
 const gteMyName = (req, res) => {
   res.status(200).send("Bilal-Gujjar");
 };
